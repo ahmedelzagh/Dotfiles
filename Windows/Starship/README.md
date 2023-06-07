@@ -10,4 +10,5 @@ winget install --id Starship.Starship
 Invoke-Expression (&starship init powershell)
 ```
 - Copy `starship.toml` to `%USERPROFILE%\.config`
+- Use [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads) font
 - Configure Starship more! [Configuration Docs](https://starship.rs/config/)
