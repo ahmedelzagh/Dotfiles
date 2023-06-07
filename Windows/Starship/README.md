@@ -1,11 +1,11 @@
 ## My PowerShell & Starship config
 
-- Install starship [docs](https://starship.rs/guide/#%F0%9F%9A%80-installation):
+- [Install starship](https://starship.rs/guide/#%F0%9F%9A%80-installation):
 ```shell
 winget install --id Starship.Starship
 ```
-- Set up PowerShell to use Starship:
-*Add the following to the end of your PowerShell configuration (find it by running $PROFILE):*
+- Set up PowerShell to use Starship:<br />
+ *Add the following to the end of your PowerShell configuration (find it by running $PROFILE):*
 ```shell
 Invoke-Expression (&starship init powershell)
 ```
